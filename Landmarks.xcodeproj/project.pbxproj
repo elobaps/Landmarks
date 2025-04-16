@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		083F9E6E2DB03EEF00A80183 /* gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 083F9E6D2DB03EEF00A80183 /* gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		083F9E392DB016F700A80183 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		083F9E2B2DB016F600A80183 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		083F9E382DB016F700A80183 /* LandmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		083F9E422DB016F700A80183 /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		083F9E6D2DB03EEF00A80183 /* gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -101,6 +106,7 @@
 		083F9E222DB016F600A80183 = {
 			isa = PBXGroup;
 			children = (
+				083F9E6D2DB03EEF00A80183 /* gitignore */,
 				083F9E2D2DB016F600A80183 /* Landmarks */,
 				083F9E5E2DB0306F00A80183 /* Ressources */,
 				083F9E3B2DB016F700A80183 /* LandmarksTests */,
@@ -240,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				083F9E6E2DB03EEF00A80183 /* gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

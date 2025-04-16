@@ -1,0 +1,32 @@
+# Xcode
+DerivedData/
+*.xcuserstate
+*.xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata
+
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.build/
+Packages/
+.swiftpm/
+
+# Logs
+*.log
+
+# Archives
+*.xcarchive
+
+# Playground data
+timeline.xctimeline
+playground.xcworkspace
+
+# Bundles
+*.app
+*.ipa
+*.dSYM
+
+# Others
+*.swp
+*.swo

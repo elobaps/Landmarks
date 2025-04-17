@@ -36,23 +36,6 @@
 		083F9E6F2DB041F100A80183 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		083F9E5F2DB0307D00A80183 /* Exceptions for "Ressources" folder in "Landmarks" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Contents.json,
-			);
-			target = 083F9E2A2DB016F600A80183 /* Landmarks */;
-		};
-		083F9E602DB0307D00A80183 /* Exceptions for "Ressources" folder in "LandmarksUITests" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Contents.json,
-			);
-			target = 083F9E412DB016F700A80183 /* LandmarksUITests */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		083F9E2D2DB016F600A80183 /* Landmarks */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -67,15 +50,6 @@
 		083F9E452DB016F700A80183 /* LandmarksUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LandmarksUITests;
-			sourceTree = "<group>";
-		};
-		083F9E5E2DB0306F00A80183 /* Ressources */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				083F9E5F2DB0307D00A80183 /* Exceptions for "Ressources" folder in "Landmarks" target */,
-				083F9E602DB0307D00A80183 /* Exceptions for "Ressources" folder in "LandmarksUITests" target */,
-			);
-			path = Ressources;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -111,7 +85,6 @@
 				083F9E6D2DB03EEF00A80183 /* gitignore */,
 				083F9E6F2DB041F100A80183 /* README.md */,
 				083F9E2D2DB016F600A80183 /* Landmarks */,
-				083F9E5E2DB0306F00A80183 /* Ressources */,
 				083F9E3B2DB016F700A80183 /* LandmarksTests */,
 				083F9E452DB016F700A80183 /* LandmarksUITests */,
 				083F9E2C2DB016F600A80183 /* Products */,
@@ -191,7 +164,6 @@
 			);
 			fileSystemSynchronizedGroups = (
 				083F9E452DB016F700A80183 /* LandmarksUITests */,
-				083F9E5E2DB0306F00A80183 /* Ressources */,
 			);
 			name = LandmarksUITests;
 			packageProductDependencies = (

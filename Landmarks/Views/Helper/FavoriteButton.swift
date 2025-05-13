@@ -27,5 +27,5 @@ struct FavoriteButton: View {
 
 #Preview {
     FavoriteButton(isSet: .constant(true))
-//        .constant(true) Crée une valeur fixe juste pour la preview
+//        .constant(true) Crée une valeur fixe juste pour avoir un aperçu sur la preview pour tester l'affichage 
 }
